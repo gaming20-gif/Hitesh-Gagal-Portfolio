@@ -111,43 +111,8 @@ export default function Portfolio() {
       </div>
     </div>
 
-    {/* Desktop Menu */}
-    {/* <div className="hidden md:flex gap-8">
-      {/* {['Home', 'Projects', 'Skills', 'Contact'].map((item) => (
-        <button
-          key={item}
-          onClick={() => setActiveSection(item.toLowerCase())}
-          className={`transition-all ${
-            activeSection === item.toLowerCase()
-              ? 'text-purple-400 scale-110'
-              : 'text-gray-300 hover:text-white'
-          }`}
-        >
-          {item}
-        </button>
-      ))} */}
-      {['Home', 'Projects', 'Skills', 'Contact'].map((item) => (
-  <button
-    key={item}
-    onClick={() => {
-      setActiveSection(item.toLowerCase());
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }}
-    className={`transition-all ${
-      activeSection === item.toLowerCase()
-        ? 'text-purple-400 scale-110'
-        : 'text-gray-300 hover:text-white'
-    }`}
-  >
-    {item}
-  </button>
-))}
-
-    {/* </div> */} 
-
-    {/* Mobile Menu Button */}
-    {/* <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
-      {menuOpen ? <X /> : <Menu />}
+   
+   
   {/* Desktop Menu */}
 <div className="hidden md:flex gap-8">
   {['Home', 'Projects', 'Skills', 'Contact'].map((item) => (
@@ -196,23 +161,7 @@ export default function Portfolio() {
 
   </div>
 
-  {/* Mobile Menu */}
-  {/* {menuOpen && (
-    <div className="md:hidden bg-slate-800/95 backdrop-blur-md border-t border-white/10">
-      {['Home', 'Projects', 'Skills', 'Contact'].map((item) => (
-        <button
-          key={item}
-          onClick={() => {
-            setActiveSection(item.toLowerCase());
-            setMenuOpen(false);
-          }}
-          className="block w-full text-left px-6 py-3 hover:bg-white/5"
-        >
-          {item}
-        </button>
-      ))}
-    </div>
-  )} */}
+  
 </nav>
 
       {/* Content */}
