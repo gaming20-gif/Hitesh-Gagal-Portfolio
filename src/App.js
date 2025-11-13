@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Github, Linkedin, Mail, ExternalLink,  } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, ExternalLink, FileText   } from 'lucide-react';
 import img from './img/hitesh1.jpg'
 import { Phone, MapPin, Globe, Facebook, Instagram } from "lucide-react";
 
@@ -384,24 +384,26 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-400/50 transition-all">
-        <div className="flex items-start gap-4">
-          <div className="p-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg">
-            <Globe className="w-6 h-6" />
-          </div>
-          <div className="flex-1">
-            <h3 className="text-lg font-semibold mb-2">Website</h3>
-            <a 
-              href="https://yourwebsite.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-purple-400 transition-colors"
-            >
-              yourwebsite.com
-            </a>
-          </div>
-        </div>
-      </div>
+    
+    <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-400/50 transition-all">
+  <div className="flex items-start gap-4">
+    <div className="p-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg">
+      <FileText className="w-6 h-6" /> {/* change the icon */}
+    </div>
+    <div className="flex-1">
+      <h3 className="text-lg font-semibold mb-2">Resume</h3>
+      <a 
+        href="/resume.pdf" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-purple-400 transition-colors"
+      >
+        View / Download Resume
+      </a>
+    </div>
+  </div>
+</div>
+
     </div>
 
     {/* Social Links */}
