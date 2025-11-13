@@ -231,7 +231,7 @@ export default function Portfolio() {
   </a>
 
   <a
-    href="https://linkedin.com/in/yourprofile"
+    href="https://www.linkedin.com/in/hitesh-gagal-817b3a398/"
     target="_blank"
     rel="noopener noreferrer"
   >
