@@ -390,17 +390,28 @@ export default function Portfolio() {
     <div className="p-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg">
       <FileText className="w-6 h-6" /> {/* change the icon */}
     </div>
-    <div className="flex-1">
+    {/* <div className="flex-1">
       <h3 className="text-lg font-semibold mb-2">Resume</h3>
       <a 
-        href="/resume.pdf" 
+        href="/Hitesh Gagal - Resume.pdf" 
         target="_blank" 
         rel="noopener noreferrer"
         className="text-gray-400 hover:text-purple-400 transition-colors"
       >
         View / Download Resume
       </a>
-    </div>
+    </div> */}
+    <div className="flex-1">
+  <h3 className="text-lg font-semibold mb-2">Resume</h3>
+  <a
+    href={`${process.env.PUBLIC_URL}/Hitesh Gagal - Resume.pdf`}
+    download="Hitesh-Gagal-Resume.pdf"
+    className="text-gray-400 hover:text-purple-400 transition-colors"
+  >
+    View / Download Resume
+  </a>
+</div>
+
   </div>
 </div>
 
