@@ -232,13 +232,15 @@ export default function Portfolio() {
 
   <a
     href="https://www.linkedin.com/in/hitesh-gagal-817b3a398/"
+    
     target="_blank"
     rel="noopener noreferrer"
   >
     <Linkedin className="w-6 h-6 hover:text-purple-400 cursor-pointer transition-colors" />
   </a>
 
-  <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+  <a href=" mailto:info@hiteshgagal5.com">
+ 
     <Mail className="w-6 h-6 hover:text-purple-400 cursor-pointer transition-colors" />
   </a>
 </div>
