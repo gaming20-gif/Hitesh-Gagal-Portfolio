@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
   "homepage": "https://<your-github-gaming20-gif>.github.io/<my-Portfolio>",
+=======
+>>>>>>> 2cdcf1f37fdae3525f1e839b689acbccde0875f1
   "name": "hitesh",
   "version": "0.1.0",
   "private": true,
@@ -41,7 +44,10 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.16",
     "autoprefixer": "^10.4.21",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> 2cdcf1f37fdae3525f1e839b689acbccde0875f1
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18"
   }
