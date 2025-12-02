@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Hitesh-Gagal-Portfolio/static/css/main.47b9b8af.css",
-    "main.js": "/Hitesh-Gagal-Portfolio/static/js/main.bd463ad2.js",
+    "main.css": "/Hitesh-Gagal-Portfolio/static/css/main.57b495cd.css",
+    "main.js": "/Hitesh-Gagal-Portfolio/static/js/main.593ccb8e.js",
     "static/js/453.a1dd3239.chunk.js": "/Hitesh-Gagal-Portfolio/static/js/453.a1dd3239.chunk.js",
     "static/media/portlogo1.png": "/Hitesh-Gagal-Portfolio/static/media/portlogo1.f9862a999d1fe90f31fb.png",
     "static/media/hitesh1.jpg": "/Hitesh-Gagal-Portfolio/static/media/hitesh1.8f23c3b576ded66263eb.jpg",
     "index.html": "/Hitesh-Gagal-Portfolio/index.html",
-    "main.47b9b8af.css.map": "/Hitesh-Gagal-Portfolio/static/css/main.47b9b8af.css.map",
-    "main.bd463ad2.js.map": "/Hitesh-Gagal-Portfolio/static/js/main.bd463ad2.js.map",
+    "main.57b495cd.css.map": "/Hitesh-Gagal-Portfolio/static/css/main.57b495cd.css.map",
+    "main.593ccb8e.js.map": "/Hitesh-Gagal-Portfolio/static/js/main.593ccb8e.js.map",
     "453.a1dd3239.chunk.js.map": "/Hitesh-Gagal-Portfolio/static/js/453.a1dd3239.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47b9b8af.css",
-    "static/js/main.bd463ad2.js"
+    "static/css/main.57b495cd.css",
+    "static/js/main.593ccb8e.js"
   ]
 }
