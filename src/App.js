@@ -31,35 +31,18 @@ export default function Portfolio() {
   url: "https://odhavramsurgicalhospital.in/",
   client: "Dr. Rajesh Gori",
   contact: "+91 99044 98153",
-}
-,
-    // {
-    //   title: "AI Dashboard",
-    //   desc: "Analytics platform with machine learning insights",
-    //   tech: ["Python", "TensorFlow", "Vue.js"],
-    //   color: "from-blue-500 to-cyan-500",
-    //   url: "https://ai-dashboard-demo.com",
-    //   client: "DataCorp Analytics",
-    //   contact: "+1 (555) 234-5678"
-    // },
-    // {
-    //   title: "Mobile Fitness App",
-    //   desc: "Track workouts and nutrition with social features",
-    //   tech: ["React Native", "Firebase"],
-    //   color: "from-green-500 to-emerald-500",
-    //   url: "https://fitness-tracker-app.com",
-    //   client: "HealthTech Solutions",
-    //   contact: "+1 (555) 345-6789"
-    // },
-    // {
-    //   title: "Design System",
-    //   desc: "Component library for enterprise applications",
-    //   tech: ["TypeScript", "Storybook", "CSS"],
-    //   color: "from-orange-500 to-red-500",
-    //   url: "https://design-system-docs.com",
-    //   client: "Enterprise Co.",
-    //   contact: "+1 (555) 456-7890"
-    // }
+},
+    {
+      title: "Shree Krishna Furnishing",
+      desc: "An engaging furniture and home decor website showcasing products, storefronts, and contact features.",
+      tech: ["React", "Tailwind CSS"],
+      color: "from-indigo-500 to-sky-500",
+      url: "https://shreekrishnafurnishing.com/",
+      client: "Shree Krishna Furnishing",
+      contact: "+91 90549 78918",
+    },
+   
+    
   ];
 
   const skills = [
@@ -111,9 +94,7 @@ export default function Portfolio() {
       </div>
     </div>
 
-   
-   
-  {/* Desktop Menu */}
+   {/* Desktop Menu */}
 <div className="hidden md:flex gap-8">
   {['Home', 'Projects', 'Skills', 'Contact'].map((item) => (
     <button
@@ -132,7 +113,6 @@ export default function Portfolio() {
     </button>
   ))}
 </div>
-
 {/* Mobile Menu Button */}
 <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
   {menuOpen ? <X /> : <Menu />}
@@ -140,7 +120,7 @@ export default function Portfolio() {
 
 {/* Mobile Menu (only visible when open) */}
 {menuOpen && (
-  <div className="md:hidden bg-slate-800/95 backdrop-blur-md border-t border-white/10">
+  <div className="md:hidden bg-slate-900/50 backdrop-blur-md border-t border-white/10">
     {['Home', 'Projects', 'Skills', 'Contact'].map((item) => (
       <button
         key={item}
@@ -156,9 +136,6 @@ export default function Portfolio() {
     ))}
   </div>
 )}
-
-  
-
   </div>
 
   
@@ -193,7 +170,7 @@ export default function Portfolio() {
             </h3>
             
             <p className="text-lg md:text-xl text-gray-400 mb-4 max-w-2xl animate-slide-up delay-200">
-              📍 Kutch, Gujarat, India 
+              📍 Rangpar, Morbi, Gujarat, India 
               {/* 🎓 B.com Graduate */}
             </p>
             
@@ -242,7 +219,7 @@ export default function Portfolio() {
   </a>
 
   <a
-    href="https://www.linkedin.com/in/hitesh-gagal-817b3a398"
+    href="https://www.linkedin.com/in/hitesh-ahir-683316398/"
     
     target="_blank"
     rel="noopener noreferrer"
@@ -388,7 +365,7 @@ export default function Portfolio() {
           <div className="flex-1">
             <h3 className="text-lg font-semibold mb-2">Location</h3>
             <p className="text-gray-400">
-              Atal Nagar, bhuj, Gujrat<br />
+              Rangpar, Morbi, Gujarat<br />
               India
             </p>
           </div>
@@ -412,7 +389,7 @@ export default function Portfolio() {
         View / Download Resume
       </a>
     </div> */}
-    <div className="flex-1">
+    {/* <div className="flex-1">
   <h3 className="text-lg font-semibold mb-2">Resume</h3>
   <a
     href={`${process.env.PUBLIC_URL}/Hitesh Gagal - Resume.pdf`}
@@ -421,7 +398,7 @@ export default function Portfolio() {
   >
     View / Download Resume
   </a>
-</div>
+</div> */}
 
   </div>
 </div>
@@ -476,8 +453,8 @@ export default function Portfolio() {
       <h3 className="text-2xl font-bold mb-6">Find Me Here</h3>
       <div className="aspect-video w-full rounded-lg overflow-hidden">
         <iframe     
-
- src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1760.5130172261859!2d69.82612010273996!3d23.310055477944317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3950e54a4d755f6f%3A0xdfc45dfceb052a30!2sAtalNagar!5e1!3m2!1sen!2sin!4v1762693298521!5m2!1sen!2sin"
+          title="Location map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31047.138660661018!2d70.88387746780067!3d22.9088082475727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39598bd51c7582d9%3A0xf05ccac15130769b!2sRangpar%2C%20Morbi%2C%20Gujarat%20363641!5e1!3m2!1sen!2sin!4v1773645236734!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}
