@@ -170,7 +170,7 @@ export default function Portfolio() {
             </h3>
             
             <p className="text-lg md:text-xl text-gray-400 mb-4 max-w-2xl animate-slide-up delay-200">
-              📍 AtalNagr, Bhuj, Gujarat, India 
+              📍 AtalNagar, Bhuj, Gujarat, India 
               {/* 🎓 B.com Graduate */}
             </p>
             
