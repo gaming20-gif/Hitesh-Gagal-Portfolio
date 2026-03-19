@@ -170,7 +170,7 @@ export default function Portfolio() {
             </h3>
             
             <p className="text-lg md:text-xl text-gray-400 mb-4 max-w-2xl animate-slide-up delay-200">
-              📍 Rangpar, Morbi, Gujarat, India 
+              📍 AtalNagr, Bhuj, Gujarat, India 
               {/* 🎓 B.com Graduate */}
             </p>
             
@@ -365,7 +365,7 @@ export default function Portfolio() {
           <div className="flex-1">
             <h3 className="text-lg font-semibold mb-2">Location</h3>
             <p className="text-gray-400">
-              Rangpar, Morbi, Gujarat<br />
+              AtalNagar, Bhuj, Gujarat<br />
               India
             </p>
           </div>
@@ -454,7 +454,7 @@ export default function Portfolio() {
       <div className="aspect-video w-full rounded-lg overflow-hidden">
         <iframe     
           title="Location map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31047.138660661018!2d70.88387746780067!3d22.9088082475727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39598bd51c7582d9%3A0xf05ccac15130769b!2sRangpar%2C%20Morbi%2C%20Gujarat%20363641!5e1!3m2!1sen!2sin!4v1773645236734!5m2!1sen!2sin"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7738.626671565946!2d69.82471093263923!3d23.310002956281508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3950e54a4d755f6f%3A0xdfc45dfceb052a30!2sAtalNagar!5e1!3m2!1sen!2sin!4v1773917999770!5m2!1sen!2sin" 
           width="100%"
           height="100%"
           style={{ border: 0 }}
@@ -463,9 +463,8 @@ export default function Portfolio() {
           referrerPolicy="no-referrer-when-downgrade"
           className="grayscale hover:grayscale-0 transition-all duration-300"
         />
-       
-      
-      
+   
+   
       </div>
     </div>
   </div>
